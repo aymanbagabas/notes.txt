@@ -10,6 +10,8 @@ git clone https://github.com/aymanbagabas/notes.txt.git && cd notes.txt && sudo 
 ```
 
 ## Usage
+
+```
 Usage: note.sh action [NAME]
 
 Actions:
@@ -18,9 +20,11 @@ Actions:
     edit | e "NOTENAME"
     delete | remove | del | rm "NOTENAME"
     list | ls
+```
 
 ## Configuration
 Notes.sh reads configuration from `$HOME/.notes.cfg`
+
 ```
 NOTES_DIR - notes storage directory, default is $HOME/.notes
 EDITOR - text editor to use, if not defined uses enviroment definetion or defaults to GNU nano.
